@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cook-app-backend",
+          "appId": "1:863477971005:android:d1c4822f7cdccedb491254",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cook-app-backend",
+          "configurations": {
+            "android": "1:863477971005:android:d1c4822f7cdccedb491254",
+            "ios": "1:863477971005:ios:c4448433a8d66e6a491254",
+            "macos": "1:863477971005:ios:c4448433a8d66e6a491254",
+            "web": "1:863477971005:web:216dd7179843f331491254",
+            "windows": "1:863477971005:web:76e066f2e1c62482491254"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
